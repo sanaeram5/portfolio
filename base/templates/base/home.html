@@ -1,0 +1,78 @@
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static '/css/main.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Sana Eram</title>
+</head>
+<body>
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card card-body h-100 border-info" id="profile-wrapper">
+                <img id="profile-pic" src="{% static 'images/profile.webp' %}">
+                <hr>
+                <h4>Hi, I am Sana!</h4>
+                <p>I love coding, reading and collaborating.</p>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card card-body h-100 border-info">
+                <h4>My first language, Java</h4>
+                <hr>
+                <p>I started programming grade 9 with the basics of java, just school level stuffs.But I made my first project in grade 10 a quiz application.</p>
+                <p> I did my major project in J2EE in final year of graduation where I designed an online shopping application. Over the years java is my favourite and go to language still I have migrated to python currently due to it stability and scalability.</p>
+                <ul class=""social-links">
+                <li><img class="social" src="{% static 'images/fb.png' %}"></li>
+                <li><img class="social" src="{% static 'images/in.png' %}"></li>
+                <li><img class="social" src="{% static 'images/git.jpg' %}"></li>
+                <li><img class="social" src="{% static 'images/gmail.jpg' %}"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>My experience as a developer</h5>
+                <hr>
+                <p>Full Stack Developer</p>
+                <p>Undergone training at Tata Steel program, Parikhshan</p>
+                <p>Looking for freelance opportunities</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>What I know?</h5>
+                <hr>
+                <p>Python, Django, Tkinter, HTML/CSS, Javascript, Bootstrap, J2EE, Java, MYSql, MS Excel</p>
+                <p>PS: Working on Django and Sqlite along with API's</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>How I learn?</h5>
+                <hr>
+                <p>Reverse Engineer and build ugly prototypes first</p>
+                <p>I can learn just about anything by having final product to tear about piece by piece. I break the code where I need to figure out why things work the way they do. Books and documentation are just reference. </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>My short term goals</h5>
+                <hr>
+                <p>Collaborating with other developers</p>
+                <p>Exploring machine learning</p>
+                <p>Looking for freelancing jobs</p>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+</body>
+</html>
